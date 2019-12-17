@@ -2,7 +2,8 @@ package ticTacToe;
 
 public enum Piece {
 	XPIECE("X Piece"),
-    OPIECE("O Piece");
+    OPIECE("O Piece"),
+    EMPTY(" ");
 
     private String namePiece;
 

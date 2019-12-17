@@ -6,7 +6,7 @@ public class Game {
 	private View view;
 	private Player[] players;
 	private Board board;
-	private Player currentPlayer;
+	public Player currentPlayer;
 	
 	public Game() {
 		// use constructors to create players and a view.

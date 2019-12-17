@@ -28,7 +28,7 @@ public class View {
     }
 	
 	// method is called in the Game class and currentPlayer is passed from there into the method.
-	private void printCurrentPlayer(Player currentPlayer) {
+	public void printCurrentPlayer(Player currentPlayer) {
 		System.out.println("Current player is: " + currentPlayer.getName());
 	}
 }
